@@ -1,14 +1,14 @@
-import "./App.css";
-import Accordion from "./components/Accordion";
-import Counter from "./components/Counter";
-import User from "./components/User";
+import Modal from "./components/Modal";
+import "../tailwind.css";
 function App() {
   return (
     <>
-      <h1>Aula 4 de React</h1>
-      <Counter />
-      <User />
-      <Accordion />
+      <h1>Aula 5 de React</h1>
+      <Modal />
+      <h1 className="underline">Hello WOrld</h1>
+      <div>
+        <p className="bg-red-600">Lorem ipsum</p>
+      </div>
     </>
   );
 }
