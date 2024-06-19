@@ -1,6 +1,11 @@
 import { StyledPageTitle } from "./style";
 
-const PageTitle = ({ title, show }) => {
+interface IProps {
+  title: string;
+  show: boolean;
+}
+
+const PageTitle = ({ title, show }: IProps) => {
   return (
     <StyledPageTitle>
       <h2>{title}</h2>
